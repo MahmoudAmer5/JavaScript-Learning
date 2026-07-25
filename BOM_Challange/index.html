@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            margin-left: 20px;
+            background-color: #ffffff;
+            justify-content: center;
+        }
+        .form{
+            display: flex;
+            height: 100px;
+            width: 98vw;
+            background-color: #cccccc;
+            border-radius: 10px;
+            justify-content: center;
+        }
+        .input{
+            width: 80vw;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .add{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-size:15px;
+            width: 10vw;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color : #00ff00 ;
+        }
+        .container{
+            margin-top: 20px;
+            padding: 10px;
+            height: 80vh;
+            width: 98vw;
+            display: block;
+            background-color: #cccccc;
+            border-radius: 10px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <input type="text" class="input">
+        <button class="add">Add Task</button>
+    </div>
+    <div class="container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
