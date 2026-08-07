@@ -84,25 +84,25 @@
 
 
 
-// allLis = document.querySelectorAll("ul li");
-// allDivs = document.querySelectorAll(".content div");
-// allLis.forEach(function (ele, index){
-//     ele.onclick = function(){
-//         // remove active class from all
-//         allLis.forEach(function (ele){
-//             ele.classList.remove("active");
-//         });
-//         // add active to only this element
-//         this.classList.add("active");
-//         console.log(allLis);
-//         // hide all divs
-//         allDivs.forEach(function (ele){
-//             ele.style.display = "none";
-//         });
-//         // show the corrosponding div
-//         allDivs[index].style.display = "block";
-//     }
-// });
+allLis = document.querySelectorAll("ul li");
+allDivs = document.querySelectorAll(".content div");
+allLis.forEach(function (ele, index){
+    ele.onclick = function(){
+        // remove active class from all
+        allLis.forEach(function (ele){
+            ele.classList.remove("active");
+        });
+        // add active to only this element
+        this.classList.add("active");
+        console.log(allLis);
+        // hide all divs
+        allDivs.forEach(function (ele){
+            ele.style.display = "none";
+        });
+        // show the corrosponding div
+        allDivs[index].style.display = "block";
+    }
+});
 
 
 
