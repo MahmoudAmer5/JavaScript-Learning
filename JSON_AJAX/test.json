@@ -1,0 +1,37 @@
+[
+    {
+    "id": 1,
+    "author": "Mahmoud Amer",
+    "category": "Programming",
+    "title": "Introduction to JavaScript",
+    "content": "JavaScript is a programming language used to make websites interactive."
+    },
+    {
+    "id": 2,
+    "author": "Ahmed Ali",
+    "category": "Technology",
+    "title": "What Is JSON?",
+    "content": "JSON is a lightweight format used to store and exchange data."
+    },
+    {
+    "id": 3,
+    "author": "Sara Mohamed",
+    "category": "Web Development",
+    "title": "Understanding APIs",
+    "content": "APIs allow different applications to communicate with each other."
+    },
+    {
+    "id": 4,
+    "author": "Omar Hassan",
+    "category": "Programming",
+    "title": "Asynchronous JavaScript",
+    "content": "Asynchronous programming allows JavaScript to handle operations without blocking the main thread."
+    },
+    {
+    "id": 5,
+    "author": "Mona Adel",
+    "category": "Databases",
+    "title": "Introduction to Databases",
+    "content": "Databases are used to store, organize, and retrieve data efficiently."
+    }
+]
